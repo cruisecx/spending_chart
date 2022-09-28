@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spending Chart</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>  
+    </head>
+    <body>
+
+      <div class="title">
+        <div class="title-child">
+          <div>My balance</div>
+          <div>$921.48</div>
+        </div>
+        <div>
+          <img src="images/logo.svg" width="40px" height="auto" alt="logo">
+        </div>
+      </div>
+
+      <div class="main">
+        <div>
+          <p class="main-title">Spending - Last 7 days</p>
+          <canvas id="myChart" width="380" height="200"></canvas>
+        </div>
+        <div class="main-stats">
+          <div>
+            <div class="main-stats-1">Total this month</div>
+            <div class="main-stats-2">$478.33</div>
+          </div>
+          <div>
+            <div class="main-stats-3">+2.4%</div>
+            <div class="main-stats-1">from last month</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/cruisecx" target="_blank">Wellinton A</a>.
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </body>
+  </html>
